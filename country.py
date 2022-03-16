@@ -20,7 +20,7 @@ with open('resources/Country_Population.csv') as csv_file:
                         end_index = i
         if line_count > 4 and row[1] in countries:
             for i in range(start_index, end_index+1):
-                data_row = [row[0], row[1], None, None, None, None, None, row[i], None, None, None, None, None, headers[i]]
+                data_row = [row[0], row[1], None, None, None, None, None, row[i], None, None, None, None, headers[i]]
                 data.append(data_row)
         line_count+=1
 
@@ -94,8 +94,64 @@ with open('resources/Country_GDP.csv') as csv_file:
 
 for i in range(len(data)):
     for j in range(len(gdp)):
-        if data[i][1] == gdp[j][0] and data[i][13] == gdp[j][2]:
+        if data[i][1] == gdp[j][0] and data[i][12] == gdp[j][2]:
             data[i][10] = gdp[j][1]
+
+
+density = []
+
+with open('resources/Country_Density.csv') as csv_file:
+    csv_reader = csv.reader(csv_file, delimiter=',')
+    line_count = 0
+    for row in csv_reader:
+        if line_count == 4:
+            headers = row
+            start_index = 0
+            end_index = 0
+            for i in range(len(row)):
+                if i > 3 and i < len(row)-1:
+                    if int(row[i]) == 2005:
+                        start_index = i
+                    if int(row[i]) == 2020:
+                        end_index = i
+        if line_count > 4 and row[1] in countries:
+            for i in range(start_index, end_index+1):
+                density_row = [row[1], row[i], headers[i]]
+                density.append(density_row)
+        line_count+=1
+
+for i in range(len(data)):
+    for j in range(len(density)):
+        if data[i][1] == density[j][0] and data[i][12] == density[j][2]:
+            data[i][11] = density[j][1]
+
+
+fertility = []
+
+with open('resources/Country_Density.csv') as csv_file:
+    csv_reader = csv.reader(csv_file, delimiter=',')
+    line_count = 0
+    for row in csv_reader:
+        if line_count == 4:
+            headers = row
+            start_index = 0
+            end_index = 0
+            for i in range(len(row)):
+                if i > 3 and i < len(row)-1:
+                    if int(row[i]) == 2005:
+                        start_index = i
+                    if int(row[i]) == 2020:
+                        end_index = i
+        if line_count > 4 and row[1] in countries:
+            for i in range(start_index, end_index+1):
+                fertility_row = [row[1], row[i], headers[i]]
+                fertility.append(fertility_row)
+        line_count+=1
+
+for i in range(len(data)):
+    for j in range(len(fertility)):
+        if data[i][1] == fertility[j][0] and data[i][12] == fertility[j][2]:
+            data[i][8] = fertility[j][1]
 
 for i in data:
     print(i)
