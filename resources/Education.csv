@@ -1,0 +1,37 @@
+﻿Country Name,Country Code,Series,Series Code,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020
+Canada,CAN,PISA: Mean performance on the mathematics scale,LO.PISA.MAT,..,527.007178886688,..,..,526.805152750932,..,..,518.070399595951,..,..,515.6474,..,..,512.016942823931,..,..
+Canada,CAN,PISA: Mean performance on the reading scale,LO.PISA.REA,..,527.01129533033,..,..,524.241833408575,..,..,523.116718421554,..,..,526.6678,..,..,520.085520926521,..,..
+Canada,CAN,PISA: Mean performance on the science scale,LO.PISA.SCI,..,534.469777292383,..,..,528.704953213355,..,..,525.460969751711,..,..,527.7047,..,..,517.99766075567,..,..
+Canada,CAN,"Adjusted net enrolment rate, one year before the official primary entry age, adjusted gender parity index (GPIA)",UIS.NERA.AGM1.GPIA.CP,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..,..
+United States,USA,PISA: Mean performance on the mathematics scale,LO.PISA.MAT,..,474.352157500162,..,..,487.396520406538,..,..,481.366786279212,..,..,469.6285,..,..,478.244717377205,..,..
+United States,USA,PISA: Mean performance on the reading scale,LO.PISA.REA,..,..,..,..,499.826821131663,..,..,497.581718116953,..,..,496.9351,..,..,505.352771050068,..,..
+United States,USA,PISA: Mean performance on the science scale,LO.PISA.SCI,..,488.906836775351,..,..,502.002265007935,..,..,497.409811483087,..,..,496.2424,..,..,502.380032000921,..,..
+United States,USA,"Adjusted net enrolment rate, one year before the official primary entry age, adjusted gender parity index (GPIA)",UIS.NERA.AGM1.GPIA.CP,0.99067,..,..,..,..,1.02389,1.01223,0.99899,1.0111,1.02096,0.9825,1.02073,..,1.03804,..,..
+United Kingdom,GBR,PISA: Mean performance on the mathematics scale,LO.PISA.MAT,..,495.444158833462,..,..,492.414078206256,..,..,493.934230896316,..,..,492.4785,..,..,501.76989911392,..,..
+United Kingdom,GBR,PISA: Mean performance on the reading scale,LO.PISA.REA,..,495.083509651635,..,..,494.182010308355,..,..,499.323115130356,..,..,497.9719,..,..,503.928109206045,..,..
+United Kingdom,GBR,PISA: Mean performance on the science scale,LO.PISA.SCI,..,514.773547839566,..,..,513.710240139805,..,..,514.129321054891,..,..,509.2215,..,..,504.667473533585,..,..
+United Kingdom,GBR,"Adjusted net enrolment rate, one year before the official primary entry age, adjusted gender parity index (GPIA)",UIS.NERA.AGM1.GPIA.CP,1.00329,1.006,1.00265,1.00064,1.00316,1.00409,0.99216,1.00005,0.96637,0.99817,0.96102,0.99714,0.99862,0.99999,..,..
+France,FRA,PISA: Mean performance on the mathematics scale,LO.PISA.MAT,..,495.538332644515,..,..,496.782310397535,..,..,494.98467432064,..,..,492.9204,..,..,495.407581444032,..,..
+France,FRA,PISA: Mean performance on the reading scale,LO.PISA.REA,..,487.706247187242,..,..,495.616541310945,..,..,505.481483378022,..,..,499.3061,..,..,492.606481334553,..,..
+France,FRA,PISA: Mean performance on the science scale,LO.PISA.SCI,..,495.219838638056,..,..,498.22689391511,..,..,498.970894151481,..,..,494.9776,..,..,492.977076058355,..,..
+France,FRA,"Adjusted net enrolment rate, one year before the official primary entry age, adjusted gender parity index (GPIA)",UIS.NERA.AGM1.GPIA.CP,1.00645,1.00624,0.99774,1.007,0.9962,1.00376,1.00469,1.00506,1.00549,0.99823,1.00524,0.99894,0.99744,1.00399,..,..
+Germany,DEU,PISA: Mean performance on the mathematics scale,LO.PISA.MAT,..,503.790858681686,..,..,512.777642599843,..,..,513.525055819929,..,..,505.9713,..,..,500.043780166766,..,..
+Germany,DEU,PISA: Mean performance on the reading scale,LO.PISA.REA,..,494.944417879441,..,..,497.305058150888,..,..,507.676529765533,..,..,509.1041,..,..,498.279256429592,..,..
+Germany,DEU,PISA: Mean performance on the science scale,LO.PISA.SCI,..,515.64913003029,..,..,520.405349483897,..,..,524.120799257005,..,..,509.1406,..,..,502.9889028235,..,..
+Germany,DEU,"Adjusted net enrolment rate, one year before the official primary entry age, adjusted gender parity index (GPIA)",UIS.NERA.AGM1.GPIA.CP,1.02393,0.99995,0.99434,0.99807,1.00057,1.00011,1.00057,0.99831,0.99999,1.00711,1.00416,1.00665,1.0037,1.00335,..,..
+Sweden,SWE,PISA: Mean performance on the mathematics scale,LO.PISA.MAT,..,502.356398784186,..,..,494.238175422399,..,..,478.260635903011,..,..,493.9181,..,..,502.387702056848,..,..
+Sweden,SWE,PISA: Mean performance on the reading scale,LO.PISA.REA,..,507.312880076813,..,..,497.449423526009,..,..,483.335005574195,..,..,500.1556,..,..,505.785220598165,..,..
+Sweden,SWE,PISA: Mean performance on the science scale,LO.PISA.SCI,..,503.334005841912,..,..,495.105898116161,..,..,484.798965809011,..,..,493.4224,..,..,499.444690059301,..,..
+Sweden,SWE,"Adjusted net enrolment rate, one year before the official primary entry age, adjusted gender parity index (GPIA)",UIS.NERA.AGM1.GPIA.CP,0.98755,1.01014,0.98762,0.99741,1.00759,1.00473,0.99534,1.00673,1.00119,0.99876,0.99665,1.00302,1.00249,1.00082,..,..
+Australia,AUS,PISA: Mean performance on the mathematics scale,LO.PISA.MAT,..,519.907748659007,..,..,514.34046239919,..,..,504.150766311123,..,..,493.8962,..,..,491.360025242637,..,..
+Australia,AUS,PISA: Mean performance on the reading scale,LO.PISA.REA,..,512.893291356557,..,..,514.900655197261,..,..,511.803997666501,..,..,502.9006,..,..,502.63172442266,..,..
+Australia,AUS,PISA: Mean performance on the science scale,LO.PISA.SCI,..,526.879588557918,..,..,527.270534026533,..,..,521.494746315308,..,..,509.9939,..,..,502.964562882438,..,..
+Australia,AUS,"Adjusted net enrolment rate, one year before the official primary entry age, adjusted gender parity index (GPIA)",UIS.NERA.AGM1.GPIA.CP,1.00904,0.97951,0.98395,0.97924,0.98542,0.98376,..,..,1.00071,0.99759,0.99727,0.98592,0.99327,0.99213,..,..
+Denmark,DNK,PISA: Mean performance on the mathematics scale,LO.PISA.MAT,..,513.02595000311,..,..,503.278147161397,..,..,500.026756625414,..,..,511.0876,..,..,509.398374502504,..,..
+Denmark,DNK,PISA: Mean performance on the reading scale,LO.PISA.REA,..,494.482980693314,..,..,494.916161796397,..,..,496.130881383569,..,..,499.8146,..,..,501.129933774048,..,..
+Denmark,DNK,PISA: Mean performance on the science scale,LO.PISA.SCI,..,495.894309967212,..,..,499.336974686113,..,..,498.474201429469,..,..,501.9369,..,..,492.637033350974,..,..
+Denmark,DNK,"Adjusted net enrolment rate, one year before the official primary entry age, adjusted gender parity index (GPIA)",UIS.NERA.AGM1.GPIA.CP,1.0889,1.09523,1.07668,1.10924,1.09812,0.99727,1.00725,0.9945,1.00242,1.04753,1.03412,1.01273,1.02379,0.99557,..,..
+Belgium,BEL,PISA: Mean performance on the mathematics scale,LO.PISA.MAT,..,520.348972592357,..,..,515.272276873881,..,..,514.529244727357,..,..,506.9844,..,..,508.070306356471,..,..
+Belgium,BEL,PISA: Mean performance on the reading scale,LO.PISA.REA,..,500.900594724678,..,..,505.945796158684,..,..,508.617876321039,..,..,498.5242,..,..,492.864438603842,..,..
+Belgium,BEL,PISA: Mean performance on the science scale,LO.PISA.SCI,..,510.363483623215,..,..,506.575526260289,..,..,504.867653046562,..,..,501.9997,..,..,498.77312723922,..,..
+Belgium,BEL,"Adjusted net enrolment rate, one year before the official primary entry age, adjusted gender parity index (GPIA)",UIS.NERA.AGM1.GPIA.CP,1.00331,0.99615,1.00403,0.99836,1.00626,1.00381,0.99851,1.00682,1.00195,0.99307,0.99893,1.00115,1.00146,1.01384,..,..
