@@ -1,3 +1,3 @@
-import country
+import country_script
 
-country = country.getCountryList()
+country = country_script.getCountryList()

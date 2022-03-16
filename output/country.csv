@@ -1,4 +1,4 @@
-CountryKey,Name,ALPHA-2,ALPHA-3,Region,Continent,Currency,Capital,TotalPopulation,Birthrate,Size,GDP,PopulationDensity
+CountryKey,Name,ALPHA-3,ALPHA-2,Region,Continent,Currency,Capital,TotalPopulation,Birthrate,Size,GDP,PopulationDensity
 0,Australia,AUS,AU,Australia and New Zealand,Oceania,AUD,Canberra,20394800,2.65477786600367,7692024,695075176665.163,2.65477786600367
 1,Australia,AUS,AU,Australia and New Zealand,Oceania,AUD,Canberra,20697900,2.69423219608711,7692024,747556154537.287,2.69423219608711
 2,Australia,AUS,AU,Australia and New Zealand,Oceania,AUD,Canberra,20827600,2.71111516082423,7692024,853955405511.502,2.71111516082423
