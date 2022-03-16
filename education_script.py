@@ -33,5 +33,5 @@ def getEducationList():
   columns = ["Country Name", "Year"] + indicators
   education_dimension = pd.DataFrame(res, columns=columns)
 
-  education_dimension.to_csv()
+  education_dimension[indicators].to_csv('output/education.csv', index=True, index_label="EducationKey")
   return education_dimension
