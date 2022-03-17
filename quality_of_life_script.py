@@ -10,7 +10,6 @@ def getQualityOfLifeList():
   quality_of_life_indicators = set(quality_of_life_df["Series Name"])
   quality_of_life_indicators.discard('nan')
   indicators = list(quality_of_life_indicators)
-  indicators
 
   quality_of_life_df[(quality_of_life_df['Country Name'] == 'Canada') & (quality_of_life_df["Series Name"] == 'People using at least basic drinking water services (% of population)')]["2005"].item()
 

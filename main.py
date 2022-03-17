@@ -4,6 +4,7 @@ import health_script
 
 import pandas as pd
 
+import quality_of_life_script
 import year_script
 
 pd.set_option('display.expand_frame_repr', False)
@@ -12,6 +13,7 @@ country = country_script.getCountryList()
 education = education_script.getEducationList()
 health = health_script.getHealthList()
 year = year_script.getYearList()
+quality = quality_of_life_script.getQualityOfLifeList()
 
 countries = ["Canada", "United States", "United Kingdom", "France", "Germany", "Sweden", "Australia", "Denmark", "Belgium"]
 
@@ -32,7 +34,10 @@ for i in range(2005, 2021):
             if i == int(k[1]) and j == k[0]:
                 data_row[2] = p
                 break
-
+        for p,k in enumerate(quality.values):
+            if i == int(k[1]) and j == k[0]:
+                data_row[3] = p
+                break
         for p,k in enumerate(health.values):
             if i == int(k[1]) and j == k[0]:
                 data_row[4] = p
