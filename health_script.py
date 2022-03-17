@@ -10,7 +10,6 @@ def getHealthList():
   health_indicators = set(health_df["Series Name"])
   health_indicators.discard('nan')
   indicators = list(health_indicators)
-  indicators
 
   health_df[(health_df['Country Name'] == 'Canada') & (health_df["Series Name"] == 'Domestic general government health expenditure (% of GDP)')]["2005"].item()
 
@@ -22,7 +21,7 @@ def getHealthList():
       output = [country, year]
       for indicator in indicators:
         if indicator in health_indicators:
-          output.append(health_df[(health_df['Country Name'] == country) & (health_df["Series Name"] == indicator)][year].item())
+          output.append((health_df[(health_df['Country Name'] == country) & (health_df["Series Name"] == indicator)][year]).item())
       res.append(output.copy())
   res = np.array(res)
 
