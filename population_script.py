@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 def getPopulationList():
-  population_df = pd.read_csv("./Population.csv")
+  population_df = pd.read_csv("./resources//Population.csv")
 
   countries = ["Canada", "United States", "United Kingdom", "France", "Germany", "Sweden", "Australia", "Denmark", "Belgium"]
 
