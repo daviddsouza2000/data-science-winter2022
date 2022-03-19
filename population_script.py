@@ -9,7 +9,19 @@ def getPopulationList():
   indicators = set(population_df["Series Name"])
   indicators.discard('nan')
   indicators = list(indicators)
-
+  indicators = [
+       'Life expectancy at birth, female (years)',
+       'Life expectancy at birth, male (years)',
+       'Life expectancy at birth, total (years)',
+       'Net migration',
+       'Population growth (annual %)',
+       'Labor force, female (% of total labor force)',
+       'Labor force, total',
+       'Rural population growth (annual %)',
+       'Urban population growth (annual %)',
+       'Rural population (% of total population)',
+       'Urban population (% of total population)'
+  ]
   res = []
   for year in list(map(str, range(2005,2021))):
     for country in countries:
@@ -21,6 +33,6 @@ def getPopulationList():
 
   columns = ["Country Name", "Year"] + indicators
   population_dimension = pd.DataFrame(res, columns=columns)
-
+  population_dimension = population_dimension.replace(to_replace='..', value='')
   population_dimension[indicators].to_csv('output/population.csv', index_label="Education Key", index=True)
   return population_dimension

@@ -10,11 +10,19 @@ def getQualityOfLifeList():
   quality_of_life_indicators = set(quality_of_life_df["Series Name"])
   quality_of_life_indicators.discard('nan')
   indicators = list(quality_of_life_indicators)
-
-  quality_of_life_df[(quality_of_life_df['Country Name'] == 'Canada') & (quality_of_life_df["Series Name"] == 'People using at least basic drinking water services (% of population)')]["2005"].item()
-
-  list(map(str, range(2005,2021)))
-
+  indicators = [
+              'People using at least basic drinking water services (% of population)',
+              'People using at least basic sanitation services (% of population)',
+              'People with basic handwashing facilities including soap and water (% of population)',
+              'Unemployment, female (% of female labor force)',
+              'Unemployment, male (% of male labor force)',
+              'Unemployment, total (% of total labor force)',
+              'Pregnant women receiving prenatal care (%)',
+              'Age dependency ratio (% of working-age population)',
+              'Births attended by skilled health staff (% of total)',
+              'Community health workers (per 1,000 people)',
+              'Consumption of iodized salt (% of households)',
+  ]
   res = []
   for year in list(map(str, range(2005,2021))):
     for country in countries:
@@ -27,7 +35,7 @@ def getQualityOfLifeList():
 
   columns = ["Country Name", "Year"] + indicators
   quality_of_life_dimension = pd.DataFrame(res, columns=columns)
-
+  quality_of_life_dimension = quality_of_life_dimension.replace(to_replace='..', value='')
   quality_of_life_dimension[indicators].to_csv(index=True, index_label="QualityOfLife_key")
 
   return quality_of_life_dimension

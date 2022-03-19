@@ -15,7 +15,18 @@ def getEducationList():
   indicators = health_indicators.union(education_indicators)
   indicators.discard('nan')
   indicators = list(indicators)
-
+  indicators = ['Literacy rate, adult female (% of females ages 15 and above)',
+ 'Literacy rate, adult male (% of males ages 15 and above)',
+ 'Literacy rate, adult total (% of people ages 15 and above)',
+ 'School enrollment, primary (% gross)',
+ 'School enrollment, secondary (% gross)',
+ 'School enrollment, tertiary (% gross)',
+ 'Public spending on education, total (% of GDP)',
+  'PISA: Mean performance on the science scale',
+ 'PISA: Mean performance on the reading scale',
+ 'PISA: Mean performance on the mathematics scale',
+ 'Adjusted net enrolment rate, one year before the official primary entry age, adjusted gender parity index (GPIA)'
+  ]
   res = []
   for year in list(map(str, range(2005, 2021))):
     for country in countries:
@@ -32,6 +43,6 @@ def getEducationList():
 
   columns = ["Country Name", "Year"] + indicators
   education_dimension = pd.DataFrame(res, columns=columns)
-
+  education_dimension = education_dimension.replace(to_replace='..', value='')
   education_dimension[indicators].to_csv('output/education.csv', index=True, index_label="EducationKey")
   return education_dimension
