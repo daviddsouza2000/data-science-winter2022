@@ -36,6 +36,6 @@ def getQualityOfLifeList():
   columns = ["Country Name", "Year"] + indicators
   quality_of_life_dimension = pd.DataFrame(res, columns=columns)
   quality_of_life_dimension = quality_of_life_dimension.replace(to_replace='..', value='')
-  quality_of_life_dimension[indicators].to_csv(index=True, index_label="QualityOfLife_key")
+  quality_of_life_dimension[indicators].to_csv('output/quality_of_life.csv', index=True, index_label="QualityOfLife_key")
 
   return quality_of_life_dimension

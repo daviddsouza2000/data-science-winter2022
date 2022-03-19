@@ -65,5 +65,5 @@ for i in range(len(data)):
     if data[i][8] is None:
         data[i][8] = 5
 
-df = pd.DataFrame(data, columns=["YearKey", "CountryKey", "EducationKey", "QualityOfLifeKey", "HealthKey", "PopulationKey", "QualityOfLifeKey", "DevelopmentIndex", "HumanDevelopmentIndex"])
+df = pd.DataFrame(data, columns=["YearKey", "CountryKey", "EducationKey", "QualityOfLifeKey", "HealthKey", "PopulationKey", "QualityOfLife", "DevelopmentIndex", "HumanDevelopmentIndex"])
 df.to_csv('output/fact_table.csv', index=False)
