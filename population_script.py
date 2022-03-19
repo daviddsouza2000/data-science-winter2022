@@ -22,5 +22,5 @@ def getPopulationList():
   columns = ["Country Name", "Year"] + indicators
   population_dimension = pd.DataFrame(res, columns=columns)
 
-  population_dimension[indicators].to_csv('output/education', index_label="Education Key", index=True)
+  population_dimension[indicators].to_csv('output/population.csv', index_label="Education Key", index=True)
   return population_dimension

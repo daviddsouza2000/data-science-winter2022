@@ -4,6 +4,7 @@ import health_script
 
 import pandas as pd
 
+import human_capital_script
 import population_script
 import quality_of_life_script
 import year_script
@@ -16,6 +17,7 @@ health = health_script.getHealthList()
 year = year_script.getYearList()
 quality = quality_of_life_script.getQualityOfLifeList()
 population = population_script.getPopulationList()
+human = human_capital_script.getHumanCapitalList()
 
 countries = ["Canada", "United States", "United Kingdom", "France", "Germany", "Sweden", "Australia", "Denmark", "Belgium"]
 
@@ -48,7 +50,18 @@ for i in range(2005, 2021):
             if i == int(k[1]) and j == k[0]:
                 data_row[5] = p
                 break
+        for k in human:
+            if k[1] == i and k[0] == j:
+                data_row[8] = int(k[2]*5)
+                if k[2] >= 0.8:
+                    data_row[7] = 1
+                else:
+                    data_row[7] = 2
         data.append(data_row)
 
-for i in data:
-    print(i)
+for i in range(len(data)):
+    if data[i][8] is None:
+        data[i][8] = 5
+
+df = pd.DataFrame(data, columns=["YearKey", "CountryKey", "EducationKey", "QualityOfLifeKey", "HealthKey", "PopulationKey", "QualityOfLifeKey", "DevelopmentIndex", "HumanDevelopmentIndex"])
+df.to_csv('output/fact_table.csv', index=False)
