@@ -1,5 +1,6 @@
 import country_script
 import education_script
+import events_script
 import health_script
 
 import pandas as pd
@@ -18,6 +19,7 @@ year = year_script.getYearList()
 quality = quality_of_life_script.getQualityOfLifeList()
 population = population_script.getPopulationList()
 human = human_capital_script.getHumanCapitalList()
+events = events_script.getEventList()
 
 countries = ["Canada", "United States", "United Kingdom", "France", "Germany", "Sweden", "Australia", "Denmark", "Belgium"]
 

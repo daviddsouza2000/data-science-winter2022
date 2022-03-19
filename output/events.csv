@@ -1,0 +1,110 @@
+EventKey,YearKey,Name,Description,Type
+0,2,Economic shocks,There was an economic crisis that exacerbated the tensions between the rich Flanders region and the other two poorer regions in the country,Precursor
+1,5,Extremist/populist parties,"The 2007 financial crisis severely effected the 2010 elections as it resulted in the rise of two new radical parties, the left-wing Belgian Workers' Party and the right-wing Popular Party",Precursor
+2,6,Polarization,"After a period of stagnation that arose because it took 541 days for the Prime Minister to form a government, the northern Dutch-speaking region moved more towards the right while the southern French-speaking region moved towards the left",Precursor
+3,11,Curtailed civil liberties,Human Rights Report discovered that there was excessive use of force by police in 25 out of 26 counterterrorism operations from February to September,Symptom
+4,13,Extremist/populist parties,The conservative Flemish party gained more power by running on an anti-immigrant platform,Precursor
+5,13,No confidence votes/decreased voter turnout,"The Prime Minister of Belgium, Charles Michel, resigned after a no-confidence vote that was in part a response to his support for migrants",Symptom
+6,14,Extremist/populist parties,"The far-right increased its number of seats from three to fifteen in the election, which was a reflection of rising racism and racist attacks in the country",Precursor
+7,14,Check on executive by legislature,The Minister of Equal Opportunity launched a campaign against racism and discrimination as a means to reduce polarization of the public and therefore the government,Resistance
+8,15,Delegitimizing or weakening judiciary,"The police were given much-increased powers, with little oversight, to perform raids and enforce security during counterterrorism operations",Precursor
+9,12,Nonstate violence,"A Canadian gunman attacks a Quebec City mosque, killing 6 and injuring 19.",Precursor
+10,12,Curtailed civil liberties,Citizens have less access to information regarding the Office of the Prime Minister's actions.,Symptom
+11,13,Nonviolent protest,"Canadians protested the construction of the Kinder Morgan pipeline, a project which Prime Minister Justin Trudeau promised to oppose during his campaign.",Resistance
+12,13,Curtailed civil liberties,Canadians protesting the construction of the Kinder Morgan pipeline were jailed.,Symptom
+13,5,Curtailed civil liberties,The Alien Act of 2002 was strengthened with legislation that increased the cost of immigration and increased the difficulty of tests to qualify for reunification,Symptom
+14,9,Refugee crisis,"Over 34,000 refugees sought asylum in Denmark between 2014 and 2015, compared to less than 3,500 in 2009.",Precursor
+15,10,Refugee crisis,"In response to an increase in immigration from 2002-2015, the requirements for becoming a Danish citizen are expanded and made much more difficult including more intense language requirements, a longer and more complicated tests, and a larger number of factors which exclude individuals from eligibility.",Precursor
+16,13,Cooptation of the opposition,"The  Danish People's Party, a right-wing party with a large number of parliamentary seats, have established a bond/coalition with the Social Democrats, with their candidate for prime minister stating she is ""happy to accept parliamentary support from the DPP"" pulling the Social Democrats further to the right and making it hard for more socially liberal parties to succeed.",Precursor
+17,13,Extremist/populist parties,"In response to an increase in immigration starting in 2002, politics and politicians have become increasingly more anti-immigrant and populistic, and Prime Minister Lars Rasmussen gave a speech about immigrant neighborhoods reaching ""out their tentacles onto the streets” and that because of ghettos of immigrant populations, “cracks have appeared on the map of Denmark.”",Precursor
+18,13,Increasing control of civil society,"The rights of immigrants, particularly Muslim immigrants, are being impinged upon through programs such as mandatory schooling in ""Danish Values"" for children, who are required to be separated from their parents for at least 25 hours a week.",Precursor
+19,14,Extremist/populist parties,The Social Democrats won the election with adopted far-right anti-immigration agenda,Precursor
+20,15,Nonviolent protest,Some parents protested online refusing to send their children back to schools and nurseries as coronavirus lockdown measures are eased,Resistance
+21,0,Horizontal corruption,"Emergence of tradition in which long serving politicians are rewarded by appointments to favourable jobs in government by their associates, without public transparency",Precursor
+22,10,Refugee crisis,Influx of immigrants beginning in 2015 and peaking in 2016,Precursor
+23,0,Nonstate violence,A terrorist attack targeted commuters on public transit in Central London.,Precursor
+24,4,Economic shocks,Eurozone Crisis causes an employment shock in the rest of the EU (the UK was less affected due to using the Pound) and the UK began to absorb unemployed individuals from around the EU.,Precursor
+25,6,Economic shocks,"Following the 2008 financial crisis, austerity measures and reduction in funding for various public programs were put into place, resulting in the largest protests in the United Kingdom in many years.",Precursor
+26,6,Horizontal corruption,The Metropolitan Police was implicated in a phone hacking and corruption scandal and subsequently investigated.,Precursor
+27,8,Media repression,"Section 40 of the Crimes and Courts Act implemented a new media restriction, stipulating that news publishers not approved by the regulatory press body can be forced to pay both sides' legal fees in a court case, even if the news publisher wins the case.",Symptom
+28,9,Curtailed civil liberties,"The Data Retention and Investigatory Powers Act (DIRPA) passed, allowing authorities to access citizen phone and internet records, and requiring telecommunication companies to store communications data for twelve months.",Symptom
+29,9,Curtailed civil liberties,The Immigration Act of 20114 prevented illegal immigrants from accessing public housing and makes it easier for the government to deport illegal immigrants.,Symptom
+30,10,Extremist/populist parties,"The United Kingdom Independence Party (UKIP) rose in prominence, running on a nationalist, anti-immigrant, and anti-European Union platform, gaining 12% of the vote.",Precursor
+31,10,Check on executive by judiciary,A high Court ruled that the Data Retention and Investigatory Powers Act (DIRPA) was unlawful.,Resistance
+32,11,External influence,"The head of the National Cyber Security Center released a report which showed that Russia, in the past 12 months leading up to the referendum, had engaged in cyber-attacks against the UK, and Russia was connected to thousands of tweets which were published the day of the referendum with the hashtag #ReasonsToLeaveEU.",Precursor
+33,11,Lack of legitimacy,David Cameron stepped down as Prime Minister following the Brexit vote.,Precursor
+34,11,Curtailed civil liberties,"The Immigration Act of 2016 criminalized employers who hire illegal immigrants and landlords who allow illegal immigrants to rent property, prevents illegal immigrants from accessing bank accounts and drivers' licenses, and gives authorities more leverage to enforce immigration policies and deport those who have entered the country on human rights or asylum grounds.",Symptom
+35,11,Curtailed civil liberties,"Following a terrorist attack in Paris, the government passed the Investigatory Powers Act which reduces restrictions for the collection of communications data.",Symptom
+36,12,Polarization,"Parliamentary elections saw no party receiving the majority, making negotiations for Brexit very difficult, and causing a lot of gridlock.",Precursor
+37,13,Nonviolent protest,"The People's Vote campaign emerged as a protest movement against Brexit, calling for a public vote on the final deal reached between the United Kingdom and the European Union.",Resistance
+38,13,Nonviolent protest,"An estimated 100,000 Remain protestors marched in opposition to the Brexit proceedings.",Resistance
+39,13,Systemic reduction in election freedom/fairness,The government began implementing trial runs of mandatory voter identification in particular precincts during the elections.,Symptom
+40,2,Polarization,Issues related to the ethnolinguistic divide prevented government formation.,Precursor
+41,6,Party weakness,Prime Minister Elio Di Rupo's government took a year and a half to form a government.,Precursor
+42,7,Curtailed civil liberties,A Muslim woman was arrested for not exposing face from behind her hijab.,Symptom
+43,8,Polarization,Divides along ethnolinguistic and political lines threatened the viability of a temporary government.,Precursor
+44,11,Nonstate violence,The Brussels international airport and nearby metro station were targeted in terrorist attacks.,Precursor
+45,11,Curtailed civil liberties,"Several counterterrorism regulations and laws following attacks in Brussels and Paris reduce the right to privacy, enable more raids by armed forces, restricts movement, and negatively affect other fundamental civil liberties of Belgian citizens.",Symptom
+46,12,Vertical corruption,Mayor of Burssels Yvan Mayeur resigned following an audit that revealed he had been receiving payments for more than two years to attend board meetings for an agency that never occurred.,Precursor
+47,13,No confidence votes/decreased voter turnout,Prime Minister Charles Michel resigned after a no-confidence vote and strong divisions over migration.,Symptom
+48,0,Violent protest,Widespread riots spread throughout Parisian suburbs in response to instances of racial profiling and feelings of inadequate political representation.,Resistance
+49,0,Curtailed civil liberties,"Curtailed civil liberties under a state of emergency, including limiting freedom of assembly and movement and increased surveillance.",Symptom
+50,1,Nonstate violence,"In an act of antisemitism, Ilan Halimi, a French Jew, was kidnapped and brutally tortured until his death.",Precursor
+51,2,Extremist/populist parties,"Candidate Nicolas Sarkozy used populist rhetoric related to moral decline, economic crisis, and political exhaustion to appeal to voters during the presidential election cycle.",Precursor
+52,4,Curtailed civil liberties,President Nicolas Sarkozy specifically targeted Roma migrants for mass deportation.,Symptom
+53,4,Reduction in judicial independence,"President Nicolas Sarkozy has been accused of using the courts to attack political opponents, including Dominique de Villepin.",Symptom
+54,5,Curtailed civil liberties,"Under a new ordinance, Muslim women are banned from wearing the burqa in public.",Symptom
+55,9,Check on executive by legislature,France added a law which allows the impeachment of the president if his breach of duties conflicts with the exercise of his mandate.,Resistance
+56,10,Nonstate violence,"2,034 violent acts were committed against Jewish and Muslim individuals.",Precursor
+57,10,Nonstate violence,A series of coordinated terror attacks in Paris killed 130 and wounded nearly 500.,Precursor
+58,10,Check on executive by judiciary,France’s highest court ruled that police illegally checked the identification of three minority men based on racial profiling.,Resistance
+59,10,Curtailed civil liberties,"Following terrorist attacks, a two-year-long state of emergency was declared, during which the Minister of the Interior could authorize searches without judicial approval, place people on house arrest, and hold passports for up to two years. The government could block websites, dissolve associations, and patrol public spaces using security forces.",Symptom
+60,10,Curtailed civil liberties,"Mosques closed after allegedly supporting a more ""radical"" teachings.",Symptom
+61,10,Curtailed civil liberties,Freedom of assembly denied ahead of Cop21 climate talks.,Symptom
+62,10,Suspension of the rules/constitution,"Following terrorist attacks, President Francois Hollande declared (and prolonged) a state of emergency, stripping civil liberties and eroding rule of law.",Symptom
+63,11,External influence,"Far-right party the Front National, receives funding from Russia.",Precursor
+64,11,Extremist/populist parties,"La France Insoumise (Untamed France) is a leftist populist party that emerged during the 2017 election cycle, appealing to the ""general human will"" and class divides.",Precursor
+65,11,Nonstate violence,86 people were killed during a terrorist attack in Nice.,Precursor
+66,11,State conducted violence or abuse,"The government bulldozed a refugee camp, without planning relocation options for the refugees inhabiting the space; further, officials engaged in excessive force against the migrants and engage in harassment.",Precursor
+67,11,Vertical corruption,"Major candidates in the election (Le Pen, Fillion, and Melanchon) were investigated for engaging in corrupt activities.",Precursor
+68,11,Vertical corruption,President Nicolas Sarkozy exceeded his legal spending limits for reelection.,Precursor
+69,11,Coalitions or elite pacts,"Emmanuel Macron founded La Republique En Marche!, a political party with the aim of forging coalitions across the political divide in France",Resistance
+70,11,Pressure from outside actor,"Human Rights Watch issued a statement against President Francois Hollande's proposed citizenship law, critiquing it for unjustly targeting French Muslims.",Resistance
+71,11,Pressure from outside actor,The UN Committee Against Torture criticized the role of the French police during the state of emergency.,Resistance
+72,11,Curtailed civil liberties,"Under the state of emergency, the government arrested climate activists, broke up demonstrations against President Francois Hollande's policies, conducted 4,600 warrant-less raids, placed 752 people under house arrest, and shut down 19 Islamic centers.",Symptom
+73,11,Curtailed civil liberties,30 municipal governments issued bans on a full-body swimsuit popular among certain Muslim communities.,Symptom
+74,12,Extremist/populist parties,"Leading campaigns in the election capitalized on public suspicion, using anti-system, anti-party rhetoric.",Precursor
+75,12,Extremist/populist parties,"The National Front/National Rally party used populist rhetoric and platforms that create an ""us vs. them"" dichotomy around issues of immigration and class to mobilize support.",Precursor
+76,12,Party weakness,"For the first time, neither mainstream party qualified for the presidential runoff.",Precursor
+77,12,State conducted violence or abuse,Four police officers were accused of raping a young black man during a routine check in a suburban neighborhood.,Precursor
+78,12,Curtailed civil liberties,"An anti-terrorism law allowed for the creation of a security perimeter around places with high public density in which police can search individuals, vehicles and luggage, and control movement in and out of the zone without pre-approval from a court. Police can close places of worship without judicial approval. The state can monitor communication networks until 2020. Border areas increased in scope.",Symptom
+79,12,No confidence votes/decreased voter turnout,"For the first time since 1969, voter turnout decreased from the first round of the presidential election to the second.",Symptom
+80,12,No confidence votes/decreased voter turnout,"The second round of the 2017 presidential elections set a record for the highest abstention rate ever for a French presidential election, with an abstention rate of >25% and the highest number of scratch votes.",Symptom
+81,12,No confidence votes/decreased voter turnout,2017's voter turnout was the lowest since 1981.,Symptom
+82,13,Nonstate violence,"Over one year, France experienced a 74% rise in acts of anti-Semitic violence.",Precursor
+83,13,State conducted violence or abuse,"Riot police have used excessive force to quell gilets jaunes protests, using riot weapons to injure protesters.",Precursor
+84,13,Vertical corruption,President Nicolas Sarkozy allegedly received millions of euros in campaign funding from Libyan dictator Muammar Gaddafi.,Precursor
+85,13,Pressure from outside actor,The Human Rights Watch condemned France's new immigration law for weakening the rights of those appealing for asylum.,Resistance
+86,13,Violent protest,"The gilets jaunes protest movement, started by disaffected rural residents against a proposed fuel tax but growing to represent deep dissatisfaction with the Macron presidency and the rising cost of living, has held violent and nonviolent protests throughout the country every weekend since October 2018.",Resistance
+87,2,Economic shocks,The global financial crisis and the ensuing European sovereign debt crisis compelled the government to use taxpayer money to bailout private banks and also forced workers to work part-time to avoid widespread job loss.,Precursor
+88,8,Extremist/populist parties,The populist Alternative for Germany (AfD) is formed and grows in popularity.,Precursor
+89,10,Refugee crisis,Unprecedented surges of refugees sought asylum.,Precursor
+90,11,Nonstate violence,A December terrorist attack in Berlin left 12 people dead.,Precursor
+91,12,Coalitions or elite pacts,The Bundestag amended its rules to prevent an AfD delegate from assuming the ceremonial role of parliamentary president by seniority.,Resistance
+92,12,Nonviolent protest,"Following the AfD's entrance into the Bundestag, more than 10,000 people protested.",Resistance
+93,2,External influence,The perception of other countries being treated unfairly in economic crisis lead to an opinion of not feeling their country would be supported in times of personal hardship,Precursor
+94,5,Extremist/populist parties,The UK Independence Party (UKIP) has grown support into a strong anti-immigrant party after an increase in immigration in the 2000s,Precursor
+95,7,Manipulation of civil service,The UK Independence Party (UKIP) called for a referendum to leave the European Union after gaining seats in Parliament ,Precursor
+96,9,Manipulation of civil service,David Cameron used the UN Independence Party (UKIP) to help get him re-elected gaining him conservative votes he may otherwise not obtained without the conservative parties support,Precursor
+97,9,Refugee crisis,The refugee crisis incited the supporters of the Leave campaign because of fears of not having the option to turn away immigrants and this made Cameron appear weak because he appeared to not be able to stand up to the European Union to deny the refugees from coming in-country,Precursor
+98,11,Extremist/populist parties,"The far-right UKIP party, with help from the Leave.EU campaign, spread unsubstantiated claims about harmful effects of immigration to advance their anti-EU agenda. This influenced the outcome of the Brexit referendum in favor of leaving the EU.  ",Precursor
+99,11,Increasing control of civil society,The vote to leave the European Union carries,Precursor
+100,11,Polarization,The propaganda of fear of immigration and financial ruin caused fear votes for the European Union break away.,Precursor
+101,11,Polarization,The people felt belittled by the constant education by the Remain camp regarding the repercussions of leaving the EU the people felt the elites were talking down to them,Precursor
+102,11,Polarization,UN Independence Party (UKIP) used immigration as a way to communicate with Leave supports translating the welcoming of immigrants as changing social values,Precursor
+103,11,Refugee crisis,Leave campaign labeled potential incoming refugees a security threat fueling fears of terrorism,Precursor
+104,14,Check on executive by legislature,Parliament passed a bill prohibiting Johnson from withdrawing from the European Union without a deal,Resistance
+105,14,No confidence votes/decreased voter turnout,"After the election of Boris Johnson several cabinet members resigned or expressed want to call a vote of no-confidence due to Johnson's campaign promise to leave the European Union by October 31, 2019",Symptom
+106,14,Repression of opposition,Johnson suspended parliament for five weeks in an effort to limit the time they would be able to debate for how to leave the European Union,Symptom
+107,14,Repression of opposition,Johnson removed Members of Parlement (MP) who voted against leaving the European Union without a deal. ,Symptom
+108,14,Repression of opposition,Johnson threatened to withhold election if Parlement delayed Brexit further,Symptom
