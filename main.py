@@ -25,16 +25,20 @@ countries = ["Canada", "United States", "United Kingdom", "France", "Germany", "
 
 data = []
 
+event_data = []
+
 for i in range(2005, 2021):
     for j in countries:
         data_row = [None, None, None, None, None, None, None, None, None]
         for k in year:
             if i == k[1]:
-                data_row[0] = k[0]
+                year_key = k[0]
+                data_row[0] = year_key
                 break
         for k in country:
             if i == int(k[13]) and j == k[1]:
-                data_row[1] = k[0]
+                country_key = k[0]
+                data_row[1] = country_key
                 break
         for p,k in enumerate(education.values):
             if i == int(k[1]) and j == k[0]:
@@ -60,6 +64,9 @@ for i in range(2005, 2021):
                 else:
                     data_row[7] = 2
         data.append(data_row)
+        for k in events:
+            if k[5] == j and int(k[6]) == i:
+                event_data.append([country_key, year_key, k[0]])
 
 for i in range(len(data)):
     if data[i][8] is None:
@@ -67,3 +74,6 @@ for i in range(len(data)):
 
 df = pd.DataFrame(data, columns=["YearKey", "CountryKey", "EducationKey", "QualityOfLifeKey", "HealthKey", "PopulationKey", "QualityOfLife", "DevelopmentIndex", "HumanDevelopmentIndex"])
 df.to_csv('output/fact_table.csv', index=False)
+
+df = pd.DataFrame(event_data, columns=["CountryKey", "YearKey", "EventKey"])
+df.to_csv('output/event_bridge.csv', index=False)

@@ -1,0 +1,16 @@
+INSERT INTO data_mart."Year" ("YearKey", "Year", "IsLeapYear") VALUES (0, 2005, false);
+INSERT INTO data_mart."Year" ("YearKey", "Year", "IsLeapYear") VALUES (1, 2006, false);
+INSERT INTO data_mart."Year" ("YearKey", "Year", "IsLeapYear") VALUES (2, 2007, false);
+INSERT INTO data_mart."Year" ("YearKey", "Year", "IsLeapYear") VALUES (3, 2008, true);
+INSERT INTO data_mart."Year" ("YearKey", "Year", "IsLeapYear") VALUES (4, 2009, false);
+INSERT INTO data_mart."Year" ("YearKey", "Year", "IsLeapYear") VALUES (5, 2010, false);
+INSERT INTO data_mart."Year" ("YearKey", "Year", "IsLeapYear") VALUES (6, 2011, false);
+INSERT INTO data_mart."Year" ("YearKey", "Year", "IsLeapYear") VALUES (7, 2012, true);
+INSERT INTO data_mart."Year" ("YearKey", "Year", "IsLeapYear") VALUES (8, 2013, false);
+INSERT INTO data_mart."Year" ("YearKey", "Year", "IsLeapYear") VALUES (9, 2014, false);
+INSERT INTO data_mart."Year" ("YearKey", "Year", "IsLeapYear") VALUES (10, 2015, false);
+INSERT INTO data_mart."Year" ("YearKey", "Year", "IsLeapYear") VALUES (11, 2016, true);
+INSERT INTO data_mart."Year" ("YearKey", "Year", "IsLeapYear") VALUES (12, 2017, false);
+INSERT INTO data_mart."Year" ("YearKey", "Year", "IsLeapYear") VALUES (13, 2018, false);
+INSERT INTO data_mart."Year" ("YearKey", "Year", "IsLeapYear") VALUES (14, 2019, false);
+INSERT INTO data_mart."Year" ("YearKey", "Year", "IsLeapYear") VALUES (15, 2020, true);
