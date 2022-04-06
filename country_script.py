@@ -1,7 +1,7 @@
 import csv
 import pandas as pd
 
-def getCountryList():
+def getCountryList(retDF=False):
     data = []
 
     countries = ["CAN", "USA", "GBR", "FRA", "DEU", "SWE", "AUS", "DNK", "BEL"]
@@ -165,4 +165,4 @@ def getCountryList():
     df = pd.DataFrame(output_data, columns=["CountryKey", "Name", "ALPHA-3", "ALPHA-2", "Region", "Continent", "Currency", "Capital", "TotalPopulation", "Birthrate", "Size", "GDP", "PopulationDensity"])
     df.to_csv('output/country.csv', index=False)
 
-    return data
+    return df if retDF else data
