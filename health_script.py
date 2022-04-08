@@ -42,6 +42,6 @@ def getHealthList():
   columns = ["Country Name", "Year"] + indicators
   health_dimension = pd.DataFrame(res, columns=columns)
   health_dimension = health_dimension.replace(to_replace='..', value='')
-  health_dimension[indicators].to_csv('output/health.csv', index=True, index_label="Health_key")
+  health_dimension[indicators].to_csv('output/health.csv', index=True, index_label="HealthKey")
 
   return health_dimension
